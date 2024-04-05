@@ -1,0 +1,20 @@
+.footer {
+    height: 55vh;
+    background-image: url("../../assets/images/footer_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_content h2 {
+    color: #ffffff;
+    font-size: 3.5em;
+}
+.footer_content p {
+    color: #ffffff;
+    font-size: 1.5em;
+}

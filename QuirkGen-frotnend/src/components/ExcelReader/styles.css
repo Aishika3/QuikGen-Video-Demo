@@ -1,0 +1,35 @@
+.file-input {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.table {
+    margin-top: 20px;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.25);
+}
+.table-heading {
+    border-bottom: 1px solid #bbb5b5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.table-data {
+    /* width: 50vw; */
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+}
+.table-data li {
+    padding: 10px;
+}
+.input-name {
+    grid-column: 1/3;
+}

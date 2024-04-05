@@ -1,0 +1,51 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.excel {
+    margin-top: 100px;
+}
+
+.btn-save-upload {
+    padding: 8px 24px;
+    background: var(--link-color);
+    color: var(--section-color);
+    border-radius: 16px;
+    margin-top: 15px;
+}
+.btn-holder-upload {
+    margin-top: 15px;
+}
+.text-white {
+    color: var(--link-color);
+}
+.rocket {
+    color: var(--link-color);
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    font-size: 3em;
+    animation: animate 0.7s infinite;
+}
+@keyframes animate {
+    0% {
+        transform: translate(0,0);
+    }
+    25% {
+        transform: translate(10px,-15px);
+    }
+    50% {
+        transform: translate(5px,-7px);
+    }
+    75% {
+        transform: translate(2px,-4px);
+    }
+    100% {
+        transform: translate(0px,0px);
+    }
+}
